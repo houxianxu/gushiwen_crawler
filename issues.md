@@ -6,5 +6,9 @@
 
 3. Get `div_text_list = response.xpath('//div[@class="shileft"]//div[@class="shangxicont"]/text()').extract()` before crawling `<p></p>`. This is because in some HTML documents, the **content** is located in `<div></div>` not `<p></p>` e.g.(bfanyi_764).
 
-4. http://so.gushiwen.org/fanyi_694.aspx, example for Baidu Translation.
+4. Because the original HTML is not well structured, the downloaded dataset should be cleaned by human.
+
+<!-- 5. http://so.gushiwen.org/fanyi_694.aspx, example for Baidu Translation. 
+ -->
+
 
